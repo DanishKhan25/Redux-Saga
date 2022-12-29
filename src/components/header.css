@@ -1,0 +1,35 @@
+.header {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.cart {
+  width: 25px;
+}
+/* .cart-logo {
+  display: flex;
+} */
+.count {
+  position: absolute;
+  z-index: 9;
+  top: -6px;
+  left: 18px;
+  height: 20px;
+  width: 20px;
+  font-size: 1rem;
+  color: white;
+  background: green;
+  border-radius: 50%;
+  text-align: center;
+}
+.cart-logo {
+  position: relative;
+}
